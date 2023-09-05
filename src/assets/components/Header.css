@@ -1,0 +1,48 @@
+.header {
+    padding: .5rem;
+}
+
+
+.header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    list-style: none;
+
+}
+
+.header nav ul li {
+    color: var(--nav-color);
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.buttons {
+    margin: 0.5rem;
+}
+
+.f-buttons {
+    position: relative;
+    left: 16rem;
+}
+
+.f-buttons button {
+
+    padding: 0.7em 1.2em;
+    font-weight: 700;
+    border-style: none;
+}
+
+.d-button {
+    color: white;
+    font-size: 0.9rem;
+    border-radius: 0.3rem;
+    background-color: var(--azul);
+}
+.c-button{
+    color: var(--title-color);
+    font-size: 1.2rem;
+    background-color: white;
+    text-transform: uppercase;
+}

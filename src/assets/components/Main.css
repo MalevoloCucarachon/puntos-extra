@@ -1,0 +1,25 @@
+
+
+.main{
+    height: 30em;
+    padding-top: 8em;
+    padding-left: 8em;
+}
+
+.main h1{
+    font-size: 3em;
+    color: var(--title-color);
+    margin-bottom: 0.3em;
+}
+.main p{
+    width: 50em;
+    font-size: 1em;
+    margin-bottom: 1.2em;
+}
+.main button{
+    color: white;
+    padding: 0.8em 2em;
+    border-style: none;
+    background-color: var(--azul);
+    font-size: 0.8em;
+}
